@@ -12,6 +12,8 @@
 		05F2596E23712FB9003FC764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F2596C23712FB9003FC764 /* Main.storyboard */; };
 		05F2597023712FBB003FC764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F2596F23712FBB003FC764 /* Assets.xcassets */; };
 		05F2597323712FBB003FC764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F2597123712FBB003FC764 /* LaunchScreen.storyboard */; };
+		05F2597C23712FF1003FC764 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F2597B23712FF1003FC764 /* MapKit.framework */; };
+		05F2597E23713016003FC764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F2597D23713016003FC764 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		05F2596F23712FBB003FC764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05F2597223712FBB003FC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05F2597423712FBB003FC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F2597B23712FF1003FC764 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		05F2597D23713016003FC764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F2597E23713016003FC764 /* CoreLocation.framework in Frameworks */,
+				05F2597C23712FF1003FC764 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				05F2596723712FB9003FC764 /* Simple CoreLocation 01 */,
 				05F2596623712FB9003FC764 /* Products */,
+				05F2597A23712FF1003FC764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				05F2597423712FBB003FC764 /* Info.plist */,
 			);
 			path = "Simple CoreLocation 01";
+			sourceTree = "<group>";
+		};
+		05F2597A23712FF1003FC764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F2597D23713016003FC764 /* CoreLocation.framework */,
+				05F2597B23712FF1003FC764 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
