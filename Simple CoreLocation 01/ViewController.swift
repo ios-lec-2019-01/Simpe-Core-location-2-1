@@ -45,11 +45,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         // 현재 나의 위치 트랙킹
         locationManager.startUpdatingLocation()
-        locationManager.requestWhenInUseAuthorization()
-        
+        //locationManager.requestWhenInUseAuthorization()
+        locationManager.requestAlwaysAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        
-        //locationManager.requestAlwaysAuthorization()
         mapView.showsUserLocation = true
         
     }
